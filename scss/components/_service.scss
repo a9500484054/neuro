@@ -1,0 +1,131 @@
+.um-service {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    &__title {
+        margin-bottom: 37px;
+        padding: 0 15px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 100%;
+        /* or 36px */
+        color: #0B1331;
+    }
+    &__um-article {
+        flex-basis: 45%;
+    }
+}
+
+.um-article {
+    padding: 37px 17px;
+    margin-bottom: 37px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(100, 106, 127, 0.05);
+    border-radius: 40px;
+    &__title {
+        margin-bottom: 35px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 100%;
+        /* or 24px */
+        
+        
+        color: #0B1331;
+    }
+    &__text {
+        max-width: 602px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        /* or 19px */
+        
+        
+        color: #0B1331;
+    }
+}
+
+// 768px;
+@media (min-width: $screen-md) {
+    .um-service {
+        padding-bottom: 120px;
+    }
+}
+// 992px;
+@media (min-width: $screen-lg) {
+    .um-service {
+        padding-bottom: 160px;
+        &__title {
+            margin-bottom: 60px;
+            padding: 0 15px;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 100%;
+            /* or 80px */
+            color: #0B1331;
+        }
+    }
+}
+// 1200px
+@media (min-width: $screen-xl) {
+
+}
+
+// 1200px
+@media (min-width: $screen-xl) {
+    .um-service {
+        position: relative;
+        padding-top: 163px;
+        padding-bottom: 200px;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 465px;
+            height: 447px;
+            top: -179px;
+            left: -122px;
+            display: block;
+            background-image: url(images/bg-circle-2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .um-article {
+        padding: 36px;
+        &__title {
+            max-width: 680px;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 100%;
+        }
+    }
+    .block-5 {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin-bottom: 67px;
+        }
+        div {
+            padding-right: 198px;
+        }
+        img {
+            margin-bottom: 90px;
+        }
+        .mt-auto {
+            margin-top: auto;
+        }
+    }
+}
+// 1400px;
+@media (min-width: $screen-xxl) {
+    .um-service {
+        padding-bottom: 160px;
+        &__title {
+            padding: 0 15px;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 100%;
+            /* or 80px */
+            color: #0B1331;
+        }
+    }
+}

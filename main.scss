@@ -1,0 +1,182 @@
+@import "./scss/fonts";
+@import "./scss/libraries";
+@import "./scss/variables";
+@import "./scss/mixins";
+@import "./scss/base";
+
+@import "./scss/components/header";
+@import "./scss/components/hero";
+@import "./scss/components/advantages";
+@import "./scss/components/information";
+@import "./scss/components/conditions";
+@import "./scss/components/service";
+@import "./scss/components/response";
+@import "./scss/components/case";
+@import "./scss/components/menu";
+@import "./scss/components/modals";
+@import "./scss/components/elements";
+@import "./scss/components/footer";
+
+.blue-bg-1B4AC5 {
+    background: #1B4AC5;
+}
+.green-bg-00AD6D {
+    background: #00AD6D;
+}
+.green-color-00AD6D {
+    color: #00AD6D;
+}
+.white-color-FBFBFB {
+    color: #FBFBFB;
+}
+.orange-bg-E27721 {
+    background: #E27721;
+}
+.purple-bg-5014A2 {
+    background: #5014A2;
+}
+
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-34 {
+    margin-right: 34px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+} 
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+.mb-436 {
+    margin-bottom: 436px;
+}
+.mw-60 {
+    min-width: 60px;
+}
+
+.mw-180 {
+    max-width: 180px;
+}
+.mxw-250 {
+    max-width: 250px;
+}
+.mxw-400 {
+    max-width: 400px;
+}
+
+.pb-104 {
+    padding-bottom: 104px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.footer__one + .footer__one{
+    margin-left: 20px;
+}
+.footer__one{
+    max-width: 36px;
+    width: 100%;
+}
+.footer__one img{
+    width: 100%;
+}
+
+
+// 768px;
+@media (min-width: $screen-md) {
+    .mb-md-121 {
+        margin-bottom: 121px;
+    }
+    .fs-md-28 {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+
+.fb-50 {
+    flex-basis: 50%;
+}
+.fb-30 {
+    flex-basis: 30%;
+}
+.fb-40 {
+    flex-basis: 40%;
+}
+.fb-60 {
+    flex-basis: 60%;
+}
+.fb-20 {
+    flex-basis: 20%;
+}
+
+
+
+.mxh-50 {
+    max-height: 50px;
+}
+
+
+
+
+
+// 992px;
+@media (min-width: $screen-lg) {
+    .fb-lg-50 {
+        flex-basis: 49%;
+    }
+    .fb-lg-30 {
+        flex-basis: 49%;
+    }
+
+  
+    .flex-lg-row {
+        flex-direction: row;
+    }
+  }
+  
+  // 1400px;
+  @media (min-width: $screen-xxl) {
+    .fb-xxl-40 {
+      flex-basis: 39%!important;
+    }
+    .fb-xxl-60 {
+        flex-basis: 59%!important;
+    }
+  }

@@ -1,0 +1,74 @@
+.um-conditions {
+    background-image: url('images/bg-conditions.jpg');
+    background-size: cover;
+    padding: 42px 0 70px;    
+    &__title {
+        margin-bottom: 22px;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 100%;
+        /* or 36px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    &__text {
+        margin-bottom: 37px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        /* or 20px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 220px;
+        height: 54px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        /* identical to box height, or 14px */
+        color: #FFFFFF;
+        background: #1B4AC5;
+        border-radius: 55px;
+    }
+}
+
+// 768px;
+@media (min-width: $screen-md) {
+
+}
+// 992px;
+@media (min-width: $screen-lg) {
+    .um-conditions {
+        padding: 106px 0 148px;
+        &__title {
+            margin-bottom: 51px;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 100%;
+        }
+        &__text {
+            margin-bottom: 51px;
+        }
+    }
+}
+// 1200px
+@media (min-width: $screen-xl) {
+    
+}
+// 1400px;
+@media (min-width: $screen-xxl) {
+    .um-conditions {
+        &__title {
+            font-size: 80px;
+        }
+    }
+}

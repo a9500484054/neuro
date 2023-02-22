@@ -1,0 +1,109 @@
+.lid-modal {
+    z-index: 99999999999999999999999999;
+    .modal-dialog {
+        max-width: 629px;
+        max-height: 618px;
+    }
+    .modal-content {
+        padding: 20px 14px 86px 4px;
+        background: #0B1331;
+    }
+    .modal-header {
+        border: none;
+    }
+    &__btn-close {
+        position: absolute;
+        right: 35px;
+        top: 30px;
+        width: 40px;
+        height: 40px;
+        background-image: url('images/btn-close.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__title {
+        margin-bottom: 31px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 143%;
+        /* or 51px */
+
+        color: #FFFFFF;
+    }
+    &__text {
+        margin-bottom: 53px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 120%;
+        /* or 24px */
+
+        color: #FFFFFF;
+    }
+    &__form {
+        input {
+            margin-bottom: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+// 768px;
+@media (min-width: $screen-md) {
+    .lid-modal {
+        .modal-content {
+            border-radius: 58px;
+            padding: 20px 80px 86px 14px;
+        }
+        &__title {
+            font-size: 36px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+}
+
+.thank-modal {
+    z-index: 99999999999999999999999999;
+    .modal-content {
+        max-width: 629px;
+        min-height: 349px;
+        background: #0B1331;
+    }
+    .modal-header {
+        border: none;
+    }
+    &__btn-close {
+        position: absolute;
+        right: 35px;
+        top: 30px;
+        width: 40px;
+        height: 40px;
+        background-image: url('images/btn-close.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 20;
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 143%;
+        /* or 34px */
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+// 768px;
+@media (min-width: $screen-md) {
+    .thank-modal {
+        .modal-content {
+            border-radius: 58px;
+            // padding: 20px 80px 86px 14px;
+        }
+        &__text {
+            font-size: 36px;
+            line-height: 143%;
+        }
+    }
+}

@@ -1,0 +1,266 @@
+.overflow {
+  overflow: hidden;
+}
+
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+
+.pt-18 {
+  padding-top: 18px;
+}
+
+
+
+.m-0a {
+  margin: 0 auto;
+}
+
+
+.ml-31 {
+  margin-left: 31px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+.mt-159 {
+  margin-top: 159px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-21 {
+  margin-bottom: 21px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-38 {
+  margin-bottom: 38px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-45 {
+  margin-bottom: 45px;
+}
+.mb-55 {
+  margin-bottom: 55px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-75 {
+  margin-bottom: 75px;
+}
+.mb-97 {
+  margin-bottom: 97px;
+}
+
+.mb-139 {
+  margin-bottom: 139px;
+}
+.mb-190 {
+  margin-bottom: 190px;
+}
+
+
+@media (min-width: $screen-table) {
+  .pt-t-178 {
+    padding-top: 178px;
+  }
+  .mb-t-14 {
+    margin-bottom: 14px;
+  }
+  .mb-t-35 {
+    margin-bottom: 35px;
+  }
+  .mb-t-60 {
+    margin-bottom: 60px;
+  }
+  .mb-t-51 {
+    margin-bottom: 51px;
+  }
+  .mb-t-67 {
+    margin-bottom: 67px;
+  }
+  .mb-t-75 {
+    margin-bottom: 75px;
+  }
+  .mb-t-111 {
+    margin-bottom: 111px;
+  }
+  .mb-t-117 {
+    margin-bottom: 117px;
+  }
+  .mb-t-151 {
+    margin-bottom: 151px;
+  }
+  
+}
+
+  
+@media (min-width: $screen-desktop) {
+
+}
+  
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-l-orange {
+  background: #FFD0B7;
+}
+.bg-orange {
+  background: #FD8342;
+}
+.bg-orange-before {
+  &:before {
+    background: #FD8342;
+  }
+}
+.text-orange {
+  color: #FD8342;
+}
+
+
+
+.bg-l-blue {
+  background: #94CDD8;
+}
+.bg-blue {
+  background: #33B4CD;
+}
+.bg-blue-before {
+  &:before {
+    background: #33B4CD;
+  }
+}
+.text-blue {
+  color: #33B4CD;
+}
+
+.bg-l-green {
+  background: #B0E5DB;
+}
+.bg-green {
+  background: #40B5A2;
+}
+.bg-green-before {
+  &:before {
+    background: #40B5A2;
+  }
+}
+.text-green {
+  color: #40B5A2;
+}
+
+.bg-gradient-1 {
+  background: linear-gradient(52.54deg, #50A4DE 2.31%, #35BAD3 39.79%, #55CAB4 77.28%, #00AA78 114.76%);
+}
+.bg-gradient-2 {
+  background: linear-gradient(153.61deg, #50A4DE -53.56%, #35BAD3 -11.98%, #55CAB4 29.61%, #00AA78 71.19%);
+}
+
+.text-white {
+  color: #fff;
+}
+
+
+.btn--w-413 {
+  max-width: 413px;
+  min-width: 340px;
+  width: 100%;
+  height: 56px;
+}
+
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+
+.pos-a {
+  left: 20px;
+  bottom: -70px;
+}
+.pos-b {
+  width: 76%;
+  left: 14%;
+  top: -88px;
+}
+.pos-c {
+  width: 100%;
+  left: 0;
+  top: -88px;
+}
+.pos-d {
+  // width: 100%;
+  right: 0;
+  top: 0;
+}
+.pos-f {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.pos-r {
+  // width: 100%;
+  left: 0;
+  top: 49px;
+}
+
+@media (min-width: $screen-desktop) {
+  .pos-dest-a {
+    right: 20px;
+    left: 90%;
+    bottom: 20px;
+  }
+
+  .pos-dest-b {
+    width: auto;
+    left: 14%;
+    top: -88px;
+  }
+  .pos-dest-c {
+    width: auto;
+    left: 0;
+    top: -88px;
+  }
+  .pos-dest-d {
+    width: auto;
+    left: 0;
+    top: 0;
+  }
+  
+  .pos-dest-f {
+    width: auto;
+    left: 0;
+    top: 40px;
+  }
+  .pos-dest-r {
+    width: auto;
+    left: 0;
+    top: -38px;
+  }
+  
+}
+
