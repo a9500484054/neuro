@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unitedmarket.org – сервис по доставке товаров и оказанию услуг. Интернет-магазин United Market.</title>
+    <title>Neuro - Персональный маркетолог</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -251,11 +251,11 @@
                 </p>
 
                 <div>
-                    <form action="#" class="d-flex flex-column f-form align-items-start">
-                        <input class="um-case__input border-bottom mb-3" type="text" placeholder="Email" name="email">
+                    <form action="mail.php" method="post" class="d-flex flex-column f-form align-items-start">
+                        <input class="um-case__input border-bottom mb-3" type="email" placeholder="Email" name="email" required>
                         <input class="um-case__input border-bottom mb-3" type="text" placeholder="Телефон" name="phone">
                         <input class="um-case__input border-bottom mb-5" type="text" placeholder="Сообщение" name="messenge">
-                        <button class="um-case__btn-send hover--btn-conditions" type="button" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
+                        <button class="um-case__btn-send hover--btn-conditions" type="submit" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
                         <!-- <button class="um-case__btn-calculation hover--btn-case" type="button" data-bs-toggle="modal" data-bs-target="#thankYouModal">Расчитать стоимость</button> -->
                     </form>
                 </div>
@@ -271,7 +271,7 @@
         <div class="um-container">
             <ul class="main-menu__list">
                 <li class="main-menu__item"><a class="hover--link main-menu__link main-menu__link--active" href="#um-about">О нас</a></li>
-                <li class="main-menu__item"><a class="hover--link main-menu__link" href="#um-advantages">Возможност</a></li>
+                <li class="main-menu__item"><a class="hover--link main-menu__link" href="#um-advantages">Возможности</a></li>
                 <li class="main-menu__item"><a class="hover--link main-menu__link" href="#um-response">Услуги</a></li>
                 <li class="main-menu__item"><a class="hover--link main-menu__link" href="#um-case">Условия работы</a></li>
             </ul>
@@ -299,12 +299,12 @@
                             Оставьте свои контакты, мы с вами свяжемся для обсуждения деталей сотрудничества
                         </p>
                         <div class="lid-modal__form f-form">
-                            <form action="#" class="d-flex flex-column f-form align-items-start">
+                            <form action="mail.php" method="post" class="d-flex flex-column f-form align-items-start">
                                 <input class="f-form__input f-form__input--width border-bottom" type="text" placeholder="Имя" name="name">
-                                <input class="f-form__input f-form__input--width border-bottom" type="text" placeholder="Email" name="email">
+                                <input class="f-form__input f-form__input--width border-bottom" type="email" placeholder="Email" name="email" required>
                                 <input class="f-form__input f-form__input--width border-bottom" type="text" placeholder="Сообщение" name="messenge">
                                 <!-- <button class="f-form__btn-send" type="submit">Отправить</button> -->
-                                <button class="f-form__btn-send" type="button" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
+                                <button class="f-form__btn-send" type="submit" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
                             </form>
                         </div>
             
@@ -343,10 +343,10 @@
                     <p class="f-block__text">Можете задать их здесь или связаться по телефону, указанному в разделе контакты</p>
                 </li>
                 <li>
-                    <form action="#" class="d-flex flex-column f-form align-items-start">
-                        <input class="f-form__input border-bottom mb-4" type="text" placeholder="Email" name="email">
+                    <form action="mail.php" method="post" class="d-flex flex-column f-form align-items-start">
+                        <input class="f-form__input border-bottom mb-4" type="email" placeholder="Email" name="email" required>
                         <input class="f-form__input border-bottom" type="text" placeholder="Сообщение" name="messenge">
-                        <button class="f-form__btn-send hover--btn-case" type="button" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
+                        <button class="f-form__btn-send hover--btn-case" type="submit" data-bs-toggle="modal" data-bs-target="#thankYouModal">Отправить</button>
                     </form>
                 </li>
             </ul>
@@ -359,7 +359,7 @@
                     <a class="f-block__link" href="tel:79055554469">+7 905 555 44 69</a>
                 </li>
                 <li>
-                    <a class="f-block__link" href="mailto:hello@unitedmarket.org">hello@unitedmarket.org</a>    
+                    <a class="f-block__link" href="mailto:hello@neuro.pm">hello@neuro.pm</a>
                 </li>
             </ul>
 

@@ -22,6 +22,15 @@ document.querySelector('.menu-burger').addEventListener('click', ()=> {
     document.querySelector('.main-menu').classList.toggle('main-menu--active');
     document.querySelector('.menu-burger').classList.toggle('menu-burger--active');
     document.body.classList.toggle('overflow--active');
-    console.log(window.innerWidth);
-    
 });
+
+const menuItems = document.querySelector('.main-menu__list').getElementsByClassName('main-menu__item');
+for (const menuItem of menuItems) {
+    menuItem.addEventListener('click', ()=>{
+        document.querySelector('.main-menu__link--active').classList.toggle('main-menu__link--active');
+        menuItem.classList.toggle('main-menu__link--active');
+        document.querySelector('.main-menu').classList.toggle('main-menu--active');
+        document.querySelector('.menu-burger').classList.toggle('menu-burger--active');
+        document.body.classList.toggle('overflow--active');
+    })
+}
