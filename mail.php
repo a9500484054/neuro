@@ -32,16 +32,13 @@ function adopt($text) {
 
 $headers = "MIME-Version: 1.0" . PHP_EOL .
 "Content-Type: text/html; charset=utf-8" . PHP_EOL;
-//'From: '.adopt($project_name).' <'."$admin_email".'>' . PHP_EOL .
-//'Reply-To: '."$admin_email" . PHP_EOL.
-//'Reply-To: '."danilzuev2144@gmail.com" . PHP_EOL.
-//'Reply-To: '."Firtstrinat@gmail.com" . PHP_EOL;
 
 try {
     $result = mail($admin_email, adopt($form_subject), $message, $headers );
 } catch (Exception $e) {
-    header("Location: /");
+    header("HTTP/1.1 500 Server Error");;
     exit();
 }
-header("Location: /");
+if (!$result) header("HTTP/1.1 500 Server Error");
+else header("HTTP/1.1 200 OK");
 exit();
